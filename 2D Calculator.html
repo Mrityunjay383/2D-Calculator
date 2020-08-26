@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>2D Calculator</title>
+  <script src = "2D Calculator.js"></script>
+<link rel="stylesheet" href = "2D Calculator.css" />
+</head>
+<body style="background:linear-gradient(to right,#ff9966, #ff5e62);">
+
+<div class = "mrityunjay" >
+  <input type=reset id="reset"><br /><br />
+<b>Select the Structure :</b>
+<select id="slct1" name"slct1" onchange="populate(this.id,'slct2')">
+  <option value=""></option>
+  <option value="Parallelogram">Parallelogram</option>
+  <option value="Rectangle">Rectangle</option>
+  <option value="Rhombus">Rhombus</option>
+  <option value="Square">Square</option>
+  <option value="Circle">Circle</option>
+</select>
+<br><br>
+<b>Select the Operation :</b>
+<select id="slct2" name"slct2" onchange="formula()"></select>
+<p id = "x" ></p>
+<p id="y" ></p> <input id="y1" type = number placeholder = "Enter value">
+<p id="z" ></p> <input id="z1" type = number placeholder = "Enter value">
+<br><br>
+<input type=button id="cal" name=delbtn value="Calculate" onclick="result()">
+</div>
+
+</body>
+</html>

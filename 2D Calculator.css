@@ -1,0 +1,54 @@
+*{
+box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+}
+.mrityunjay{
+width:500px;
+margin:auto;
+height:auto;
+padding: 15px;
+}
+input[type=number]{
+width:70%;
+padding: 2px;
+font-size: 15px;
+margin-top: 2px;
+border-radius: 5px;
+color: black;
+}
+#slct1{
+  width:40%;
+  padding: 2px;
+  font-size: 15px;
+  margin-top: 2px;
+  border-radius: 5px;
+  color: black;
+}
+#slct2{
+  width:40%;
+  padding: 2px;
+  font-size: 15px;
+  margin-top: 2px;
+  border-radius: 5px;
+  color: black;
+}
+#x{
+  margin-left: 90px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+#cal{
+  width:100px;
+  padding: 1px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 25px;
+  border: none;
+  color: black;
+  margin-left: 112px;
+}
+#reset{
+  margin-left: 255px;
+}
